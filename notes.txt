@@ -1,0 +1,31 @@
+Create a virtual environment
+run: python -m venv venv
+this will create a folder named: venv/
+
+Activate the environment
+venv\Scripts\activate
+you will see something like :(venv) C:\Users\USER\Web development\Meme Hand Tracking>
+
+Install reqirements.txt
+run: pip install -r requirements.txt
+
+Run the application:
+python app.py
+
+Project Structure
+Meme Hand Tracking
+│
+├── app.py
+├── requirements.txt
+├── venv/
+│
+├── models
+│   ├── keras_model.h5
+│   └── labels.txt
+│
+├── static
+│   └── img
+│       └── monekey
+│
+└── templates
+    └── index.html
